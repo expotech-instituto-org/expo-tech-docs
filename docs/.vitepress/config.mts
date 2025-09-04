@@ -12,7 +12,7 @@ export default defineConfig({
       { text: 'Arquitetura', link: '/arquitetura/' },
       { text: 'DevOps', link: '/devops/' },
       { text: 'UX', link: '/ux/' },
-      { text: 'Exemplos', link: '/markdown-exemples' },
+      { text: 'Exemplos', link: '/markdown-examples' },
     ],
 
     editLink: {
@@ -73,6 +73,15 @@ export default defineConfig({
           link: '/ux/',
           items: [
             { text: 'Exemplo', link: '/ux/exemplo' }
+          ]
+        }
+      ],
+      '/': [
+        {
+          text: 'Início',
+          items: [
+            { text: 'Exemplos', link: '/markdown-examples' },
+            { text: 'Api Exemplos', link: '/api-examples' },
           ]
         }
       ]
