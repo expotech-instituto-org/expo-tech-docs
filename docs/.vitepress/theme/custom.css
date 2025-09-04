@@ -1,0 +1,29 @@
+/* INFO */
+.custom-block.info .custom-block-title::before {
+  content: "ℹ️ ";
+  margin-right: 4px;
+}
+
+/* TIP */
+.custom-block.tip .custom-block-title::before {
+  content: "💡 ";
+  margin-right: 4px;
+}
+
+/* WARNING */
+.custom-block.warning .custom-block-title::before {
+  content: "⚠️ ";
+  margin-right: 4px;
+}
+
+/* DANGER */
+.custom-block.danger .custom-block-title::before {
+  content: "🚨 ";
+  margin-right: 4px;
+}
+
+/* DETAILS (special: summary instead of .custom-block-title) */
+.custom-block.details summary::before {
+  content: "📖 ";
+  margin-right: 4px;
+}
